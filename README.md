@@ -14,24 +14,6 @@ A **real-time PDF viewer** designed for remote presentations and teaching, allow
 - **Backend**: Node.js with Express and MongoDB for session management
 - **Real-Time Communication**: Socket.io for page synchronization
 
-## Project Structure
-
-project-root/
-├── backend/ # Backend code
-│ ├── controllers/ # Controllers for API logic
-│ ├── models/ # Mongoose models
-│ ├── routes/ # Express routes
-│ ├── socket/ # Socket.io configuration
-│ ├── server.js # Express and Socket.io server
-│ └── .env # Environment variables (not included in repo)
-├── frontend/ # Frontend code
-│ ├── src/
-│ │ ├── components/ # React components
-│ │ ├── hooks/ # Custom React hooks
-│ │ ├── main.jsx # React entry point
-│ └── vite.config.js # Vite configuration
-└── README.md # Project documentation
-
 ## Getting Started
 
 ### Prerequisites
